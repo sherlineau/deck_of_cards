@@ -64,8 +64,8 @@ class Deck:
                 print(f"Player {i+1} wins with {self.scoreboard[i]}")
             
 
-    def loop_until_hit(self):
-        self.hand = []
-        self.score = 0
-        while (self.score < 21):
-            self.randomCard()
+    #  def loop_until_hit(self):
+    #     self.hand = []
+    #     self.score = 0
+    #     while (self.score < 21):
+    #         self.randomCard()
